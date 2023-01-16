@@ -1,0 +1,100 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* * */
+* {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Root */
+:root {
+  --white: #ffffff;
+  --aqua: #00C1D4;
+  --grey: #1F1F1F;
+}
+
+/* Html,body */
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--white);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.scoreboard {
+  min-width: 17vw;
+  min-height: 22vh;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  padding: 3px 1rem;
+  margin-top: 0.7rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(0, 193, 212, 0.6);
+  font-weight: 400;
+}
+
+.robbery-list {
+  margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.robbery {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.robbery-name {
+  display: flex;
+  align-items: center;
+}
+
+.robbery-check {
+  display: flex;
+  align-items: center;
+}
+
+.fa-check {
+  color: #3ad64f;
+  font-size: 13px;
+}
+
+.fa-times {
+  color: #d05959;
+}
+
+.online {
+  margin-top: 1rem;
+  font-weight: 400;
+}

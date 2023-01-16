@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./reset.css"/>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="scoreboard">
+                <div class="title">Informacje serwerowe</div>
+                <div class="robbery-list">
+                    <div class="robbery" data-type="kasetka">
+                        <div class="robbery-name">Napad na kasetkę</div>
+                        <div class="robbery-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="robbery" data-type="trucker">
+                        <div class="robbery-name">Trucker</div>
+                        <div class="robbery-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="robbery" data-type="groupe6">
+                        <div class="robbery-name">Rabunek groupe6</div>
+                        <div class="robbery-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="robbery" data-type="sklep">
+                        <div class="robbery-name">Napad na sklep</div>
+                        <div class="robbery-check"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="robbery" data-type="jubiler">
+                        <div class="robbery-name">Napad na jubilera</div>
+                        <div class="robbery-check"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="robbery" data-type="bank">
+                        <div class="robbery-name">Napad na Bank</div>
+                        <div class="robbery-check"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="robbery" data-type="pacyfic">
+                        <div class="robbery-name">Napad na Pacyfika</div>
+                        <div class="robbery-check"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+                <div class="online">
+                    <div class="online-person">Liczba graczy: <span id="players">15</span> z <span id="total">140</span><span> (Odświeżanie co 5min)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
